@@ -26,7 +26,7 @@ A trilha completa, etapa por etapa, fica no [roadmap de estudos do meu perfil](h
 [Lógica de programação: mergulhe em programação com JavaScript](https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript), na [Alura](https://www.alura.com.br).
 
 - [x] Aula 01: Iniciando com JavaScript
-- [ ] Aula 02: Condicionais e concatenação
+- [ ] Aula 02: Condicionais e concatenação (em andamento)
 - [ ] Aula 03: Loops e tentativas
 - [ ] Aula 04: Boas práticas de programação
 - [ ] Aula 05: Desafio
