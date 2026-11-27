@@ -46,6 +46,44 @@ Projeto da aula: o **Jogo do número secreto**. O código e as explicações com
 - **Guardar um texto numa variável** permite reutilizá-lo: se a mensagem mudar, muda num lugar só.
 - **Onde roda:** `alert()` e `prompt()` são funções do navegador. No Node.js (`node aula.js`), o código dá `ReferenceError: alert is not defined`; ele roda numa página HTML, com `<script src="aula.js"></script>`.
 
+## Glossário
+
+Os termos técnicos de cada aula, explicados em uma linha. A cada aula nova, entra uma tabela nova, com os termos em ordem alfabética.
+
+### Aula 01
+
+| Termo | O que é |
+| --- | --- |
+| Bloqueante | Função que para o código até a pessoa responder, como o `alert()` e o `prompt()`. |
+| camelCase | Padrão de nome com a primeira palavra em minúscula e as seguintes começando com maiúscula: `numeroSecreto`. |
+| Coerção de tipos | Conversão de tipo que o JavaScript faz sozinho antes de comparar, como no `==` e no `>=`. |
+| Console | Área do navegador (<kbd>F12</kbd> → **Console**) onde aparece o que o `console.log()` escreve. |
+| `const` | Cria uma constante: um valor que não pode ser trocado depois. |
+| Declarar e inicializar | Criar a variável e já guardar um valor nela, como em `let idade = 25;`. |
+| Escopo | O trecho do código em que um nome vale; com `let`, não dá para repetir o mesmo nome no mesmo escopo. |
+| Igualdade estrita (`===`) | Compara valor e tipo, sem converter nada: `"29" === 29` dá `false`. |
+| Igualdade frouxa (`==`) | Converte os tipos antes de comparar: `"29" == 29` dá `true`. |
+| `let` | Cria uma variável, cujo valor pode mudar. |
+| `NaN` | "Not a Number": o resultado de converter para número um texto que não é número; qualquer comparação com ele dá `false`. |
+| `null` | "Nenhum valor": o que o `prompt()` devolve quando a pessoa clica em Cancelar. |
+| `number` | O tipo dos números, escritos sem aspas: `29`. |
+| Ponto e vírgula (`;`) | Marca o fim de uma instrução. |
+| `ReferenceError` | Erro de quando o código usa um nome que não existe ali, como o `alert` no Node.js. |
+| Retorno | O valor que uma função devolve, como o texto digitado no `prompt()`. |
+| `string` | O tipo dos textos, escritos entre aspas simples ou duplas: `"29"`. |
+| `SyntaxError` | Erro na escrita do código, como declarar com `let` um nome que já existe no mesmo escopo. |
+| Tipagem dinâmica | O tipo pertence ao valor, e não à variável: a mesma variável pode receber valores de tipos diferentes. |
+| `true` e `false` | Os dois resultados possíveis de uma condição, como a do `if`. |
+| Variável | Um espaço com nome na memória para guardar um valor. |
+
+<!-- Aula nova: copie o bloco abaixo, troque o número e preencha.
+### Aula 02
+
+| Termo | O que é |
+| --- | --- |
+| Termo | Explicação em uma linha. |
+-->
+
 ## Como eu estudo
 
 1. Assisto à aula.
